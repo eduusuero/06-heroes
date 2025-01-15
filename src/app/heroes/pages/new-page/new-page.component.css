@@ -1,0 +1,13 @@
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Espaciar botones a los extremos */
+  align-items: center; /* Alinear botones verticalmente al centro */
+}
+
+.button-left {
+  margin-right: auto; /* Empujar el botón a la izquierda */
+}
+
+.button-right {
+  margin-left: auto; /* Empujar el botón a la derecha */
+}
