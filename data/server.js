@@ -8,6 +8,6 @@ const port = process.env.PORT || 3000; // Puerto dinámico para Heroku
 server.use(middlewares);
 server.use(router);
 
-server.listen(port, () => {
-  console.log(`JSON Server is running on port ${port}`);
+server.listen(PORT, '0.0.0.0', () => {
+  console.log(`JSON Server is running on http://localhost:${PORT}`);
 });
